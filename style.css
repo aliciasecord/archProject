@@ -1,0 +1,49 @@
+body {
+  background-image:url(images//background.jpg);
+  color: white;
+  }
+
+#mainDiv {
+  margin-left: 100px;
+}
+
+#sunPlanet img {
+  width: 1308px;
+  height: auto;
+}
+
+.moveRight {
+  margin-left: 500px;
+}
+
+#venusPlanet {
+  margin-left: 100px;
+}
+
+#earthPlanet {
+  margin-left: 200px;
+}
+
+#marsPlanet {
+  margin-left: 300px;
+}
+
+#jupiterPlanet {
+  margin-left: 200px;
+}
+
+#saturnPlanet {
+  margin-left: 500px;
+}
+
+#uranusPlanet {
+  margin-left: 600px;
+}
+
+#neptunePlanet {
+  margin-left: 800px;
+}
+
+#plutoPlanet {
+  margin-left: 1000px;
+}
