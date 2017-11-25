@@ -1,49 +1,93 @@
 body {
-  background-image:url(images//background.jpg);
+  background-color: black;
+  background-image: url(images/background.jpg);
   color: white;
+  }
+
+  video {
+    visibility: hidden;
+    top: 5000px;
   }
 
 #mainDiv {
   margin-left: 100px;
 }
 
-#sunPlanet img {
-  width: 1308px;
+#sun {
+  width: 360px;
   height: auto;
+  position: absolute;
+  top: 0px;
 }
 
-.moveRight {
-  margin-left: 500px;
+#mercury {
+  width: 23px;
+  height: auto;
+  position: absolute;
+  top: 1838px;
+  left: 0px;
 }
 
-#venusPlanet {
-  margin-left: 100px;
+#venus {
+  width: 53px;
+  height: auto;
+  position: absolute;
+  top: 1861px;
+  left: 23px;
 }
 
-#earthPlanet {
-  margin-left: 200px;
+#earth {
+  width: 60px;
+  height: auto;
+  position: absolute;
+  top: 1914px;
+  left: 76px;
 }
 
-#marsPlanet {
-  margin-left: 300px;
+#mars {
+  width: 53px;
+  height: auto;
+  position: absolute;
+  top: 1974px;
+  left: 136px;
 }
 
-#jupiterPlanet {
-  margin-left: 200px;
+#jupiter {
+  width: 200px;
+  height: auto;
+  position: absolute;
+  top: 2027px;
+  left: 189px;
 }
 
-#saturnPlanet {
-  margin-left: 500px;
+#saturn {
+  width: 150px;
+  height: auto;
+  position: absolute;
+  top: 2227px;
+  left: 300px;
 }
 
-#uranusPlanet {
-  margin-left: 600px;
+#uranus {
+  width: 100px;
+  height: auto;
+  position: absolute;
+  top: 2377px;
+  left: 260px;
 }
 
-#neptunePlanet {
-  margin-left: 800px;
+#neptune {
+  width: 100px;
+  height: auto;
+  position: absolute;
+  top: 2477px;
+  left: 180px;
 }
 
-#plutoPlanet {
-  margin-left: 1000px;
+#pluto {
+  width: 23px;
+  height: auto;
+  position: absolute;
+  top: 2577px;
+  left: 150px;
 }

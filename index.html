@@ -6,77 +6,30 @@
     <link rel="stylesheet" type="text/css" href="style.css">
   </head>
   <body>
-    <div id=mainDiv>
-      <h1>Through the solar system</h1>
-      <p>All planets shown proportionate to Earth</p>
+      <p><img id="sun" src="images//sun.png"></p>
 
-      <div id="sunPlanet">
-        <h2 class="label" id="sun">Sun (shown at 20% proportion)</h2>
-        <img class="planet" src="images//sun.png">
-      </div>
+      <p><img id="mercury" src="images//mercury.png"></p>
 
-      <h2 class="label" id="mercury">Mercury</h2>
-      <p id="mercuryPlanet"><img class="planet" src="images//mercury.png"></p>
+      <p><img id="venus" src="images//venus.png"></p>
 
-      <h2 class="label" id="venus">Venus</h2>
-      <p id="venusPlanet"><img class="planet" src="images//venus.png"></p>
+      <p><img id="earth" src="images//earth.png"></p>
 
-      <h2 class="label" id="earth">Earth</h2>
-      <p id="earthPlanet"><img class="planet" src="images//earth.png"></p>
+      <p><img id="mars" src="images//mars.png"></p>
 
-      <h2 class="label" id="mars">Mars</h2>
-      <p id="marsPlanet"><img class="planet" src="images//mars.png"></p>
+      <p><img id="jupiter" src="images//jupiter.png"></p>
 
-      <h2 class="label" id="jupiter">Jupiter</h2>
-      <p id="jupiterPlanet"><img class="planet" src="images//jupiter.png"></p>
+      <p><img id="saturn" src="images//saturn.png"></p>
 
-      <h2 class="label" id="saturn">Saturn</h2>
-      <p id="saturnPlanet"><img class="planet" src="images//saturn.png"></p>
+      <p><img id="uranus" src="images//uranus.png"></p>
 
-      <h2 class="label" id="uranus">Uranus</h2>
-      <p id="uranusPlanet"><img class="planet" src="images//uranus.png"></p>
+      <p><img id="neptune" src="images//neptune.png"></p>
 
-      <h2 class="label" id="neptune">Neptune</h2>
-      <p id="neptunePlanet"><img class="planet" src="images//neptune.png"></p>
+      <p><img id="pluto" src="images//pluto.png"></p>
 
-      <h2 class="label" id="pluto">Pluto</h2>
-      <p id="plutoPlanet"><img class="planet" src="images//pluto.png"></p>
+      <video id="myVideo" width="400" height="300" preload autoplay loop muted></video>
 
-      <script type="text/javascript">
-        let sun = document.getElementById('sun');
-        let mercury = document.getElementById('mercury');
-        let venus = document.getElementById('venus');
-        let earth = document.getElementById('earth');
-        let mars = document.getElementById('mars');
-        let jupiter = document.getElementById('jupiter');
-        let saturn = document.getElementById('saturn');
-        let neptune = document.getElementById('neptune');
-        let uranus = document.getElementById('uranus');
-        let pluto = document.getElementById('pluto');
-
-        function hideSun(){
-          document.getElementById('sunPlanet').innerHTML = '';
-          }
-        sun.addEventListener('click', hideSun)
-
-        function moveMercury(){
-          document.getElementById('mercuryPlanet').classList.toggle('moveRight');
-          }
-        mercury.addEventListener('mouseover', moveMercury)
-
-        function hideVenus(){
-          document.getElementById('venusPlanet').innerHTML='';
-          venus.innerHTML='';
-          }
-        venus.addEventListener('mouseenter', hideVenus)
-
-        function hideEarth(){
-          document.getElementById('earthPlanet').innerHTML='';
-          earth.innerHTML='';
-          }
-        earth.addEventListener('click', hideEarth)
-      </script>
-
-    </div>
+      <script src="tracking-min.js"></script>
+      <script src="face.js"></script>
+      <script src="script.js"></script>
   </body>
 </html>
