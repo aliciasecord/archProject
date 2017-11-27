@@ -4,90 +4,147 @@ body {
   color: white;
   }
 
-  video {
+h3 {
+  font-size: 24px;
+  padding-top: 0px;
+  line-height: 0px;
+}
+
+video {
     visibility: hidden;
     top: 5000px;
   }
 
-#mainDiv {
-  margin-left: 100px;
+.info {
+  background-color: #D6CCA9;
+  padding: 5px;
+  padding-left: 10px;
+  padding-right: 10px;
+  border: solid 1px #FFF;
+  visibility: hidden;
+  width: 150px;
+  color: black;
+  font-size: 10px;
+  position: absolute;
+  left: 255px;
+}
+
+.bold {
+  font-weight: 900;
+}
+
+.planet {
+  height: auto;
+  position: absolute;
 }
 
 #sun {
-  width: 360px;
+  width: 400px;
   height: auto;
   position: absolute;
-  top: 0px;
+  top: -40px;
+  left: -20px
 }
 
 #mercury {
   width: 23px;
-  height: auto;
-  position: absolute;
   top: 1838px;
-  left: 0px;
+  left: 10px;
+}
+
+#mercuryInfo {
+  top: 360px;
 }
 
 #venus {
   width: 53px;
-  height: auto;
-  position: absolute;
   top: 1861px;
   left: 23px;
 }
 
+#venusInfo {
+  top: 490px;
+}
+
 #earth {
   width: 60px;
-  height: auto;
-  position: absolute;
   top: 1914px;
   left: 76px;
 }
 
+#earthInfo {
+  top: 570px;
+}
+
 #mars {
   width: 53px;
-  height: auto;
-  position: absolute;
   top: 1974px;
-  left: 136px;
+  left: 120px;
+}
+
+#marsInfo {
+  top: 625px;
 }
 
 #jupiter {
   width: 200px;
-  height: auto;
-  position: absolute;
   top: 2027px;
-  left: 189px;
+  left: 100px;
+}
+
+#jupiterInfo {
+  top: 680px;
 }
 
 #saturn {
   width: 150px;
-  height: auto;
-  position: absolute;
   top: 2227px;
-  left: 300px;
+  left: 200px;
+}
+
+#saturnInfo {
+  top: 675px;
 }
 
 #uranus {
-  width: 100px;
-  height: auto;
-  position: absolute;
+  width: 120px;
   top: 2377px;
-  left: 260px;
+  left: 250px;
+}
+
+#uranusInfo {
+  top: 685px;
 }
 
 #neptune {
-  width: 100px;
-  height: auto;
-  position: absolute;
+  width: 116px;
   top: 2477px;
-  left: 180px;
+  left: 275px;
+}
+
+#neptuneInfo {
+  top: 690px;
 }
 
 #pluto {
   width: 23px;
-  height: auto;
-  position: absolute;
-  top: 2577px;
-  left: 150px;
+  top: 2580px;
+  left: 330px;
 }
+
+#plutoInfo {
+  top: 675px;
+}
+
+
+/*
+mars 12
+venus 26
+earth 30
+mars 26
+jupiter 386
+saturn 396
+uranus 120
+neptune 116
+pluto 12
+*/
