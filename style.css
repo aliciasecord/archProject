@@ -36,6 +36,8 @@ video {
 .planet {
   height: auto;
   position: absolute;
+  transition-property: width top left;
+  transition-duration: 2s;
 }
 
 #sun {
